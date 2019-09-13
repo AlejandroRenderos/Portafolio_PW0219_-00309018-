@@ -1,0 +1,15 @@
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin space-std($value) {
+  margin: $value;
+  padding: $value;
+}
+@mixin flex-std($direction, $wrap, $m_align, $c_align) {
+  display: flex;
+  flex-flow: $direction $wrap;
+  justify-content: $m_align;
+  align-items: $c_align;
+}

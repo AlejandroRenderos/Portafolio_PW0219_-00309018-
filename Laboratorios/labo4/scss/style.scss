@@ -1,0 +1,14 @@
+@import "componentes/variables";
+@import "componentes/mixin";
+
+body {
+  background-image: $bg-img;
+  ul {
+    @import flex-center;
+  }
+}
+.imagenes {
+  @import flex-center;
+  height: 50px;
+  width: 50px;
+}
