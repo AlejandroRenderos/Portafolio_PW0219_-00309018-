@@ -364,27 +364,6 @@ footer .social-links {
 
 /*La Parte para la vision exclusiva para iphone */
 
-@media only screen and (min-width: 750px) {
-
-
-
- .header{
-     display:flex;
-     justify-content: space-between;
-     margin-right: 0.5em;
-     margin-left: 0.5em;
- }
- .options{
-     display: flex;
-     flex-wrap: wrap-reverse;
- }
-
- .about .container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
 
 }
 
@@ -402,6 +381,7 @@ footer .social-links {
 
 
 }
+
 
 @media only screen and (min-width: 1440px) {
 
