@@ -359,7 +359,7 @@ footer .social-links {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        flex-flow: row wrap;
+        flex-wrap: row wrap;
         width: 100%;
 
     }
