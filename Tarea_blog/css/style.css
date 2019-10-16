@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Special+Elite&display=swap');
+.blog{
+    font-family: 'Concert One', cursive;
+    margin-block: 2em;
+    font-size: 2em;
+    color: whitesmoke;
+}
+.header{
+    background-color: darkslateblue;
+    padding: 1px
+}
+body{
+    background-color: #EBA416;
+}
+.des{
+    font-family: 'Playfair Display', serif;
+    color: whitesmoke;
+
+}
+.Experenicia{
+    display: flex;
+    flex-direction: wrap;
+}
+.breve{
+    display: flex;
+    font-family: 'Libre Baskerville', serif;
+    background-color: rgb(185, 194, 209);
+    border-bottom-style: ridge;
+    border-bottom-color: black;
+    border-bottom-width: 3px;
+}
+.mifoto{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 200px;
+}
+.art{
+    font-family: 'Playfair Display', serif;
+    color: azure;
+}
+.articulos{
+    display: flex;
+    flex-direction: column;
+}
+.tabContainer{
+    width: 100%;
+    height: 700px;
+}
+.tabContainer .buttonContainer{
+    height: 10%;
+}
+.tabContainer .buttonContainer button{
+    width: 20%;
+    height: 100%;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Anton', sans-serif;
+    font-size: 10px;
+    background-color:deepskyblue;
+}
+.tabContainer .buttonContainer button:hover{
+    background-color: darkgrey;
+}
+.tabContainer .tabPanel{
+    height: 90%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding-top: 4px;
+    box-sizing: border-box;
+    font-size: 15px;
+    display: none;
+}
+.text1{
+    align-items: center;
+    font-size: 1.5em;
+    font-family: 'Special Elite', cursive;
+}
+.dia1{
+    align-items: center;
+    width: 260px;
+    height: 270px;
+}
+
+
+.dia2{
+    align-items: center;
+    width: 250px;
+    height:300px;
+}
+.text2{
+    font-size: 1.5em;
+    font-family: 'Special Elite', cursive;
+}
+p {
+
+    margin: 10px 10px 10px 10px;
+}
+
+.dia3{
+    transform: rotate(-90deg);
+    align-items: center;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+}
+.text3{
+    color: black;
+    font-size: 1.5em;
+    font-family: 'Special Elite', cursive;
+}
+
+.dia4{
+    align-items: center;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+}
+.text4{
+    font-size: 1.5em;
+    font-family: 'Special Elite', cursive;
+}
+.dia5{
+    align-items: center;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+}
+.text5{
+    font-size: 1.5em;
+    font-family: 'Special Elite', cursive;
+}
+.foot{
+    font-size: 20px;
+    text-align: center;
+    background-color: aquamarine;
+    font-family: 'Anton', sans-serif;
+}
+
+li{
+    voice-family: inherit;
+    text-decoration: none;
+    list-style:none;
+
+}
